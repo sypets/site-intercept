@@ -14,7 +14,7 @@ import java.util.Map;
 
 abstract class AbstractSpec {
     private static String sharedCredentialsIdentifier = "prod.docs.typo3.com@srv007.typo3.com";
-    private static String deploymentHost = "srv007.typo3.com";
+    private static String deploymentHost = "prod.docs.typo3.com";
     private static String deploymentUserName = "prod.docs.typo3.com";
     static String linkedRepository = "Intercept";
     static String bambooServerName = "https://bamboo.typo3.com:443";
